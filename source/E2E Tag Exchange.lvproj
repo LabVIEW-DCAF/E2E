@@ -26,6 +26,7 @@
 		<Item Name="E2E Tag Exchange configuration.lvclass" Type="LVClass" URL="../module/configuration/E2E Tag Exchange configuration.lvclass"/>
 		<Item Name="E2E Tag Exchange tests.lvlib" Type="Library" URL="../testing/E2E Tag Exchange tests.lvlib"/>
 		<Item Name="Node LUT.lvlib" Type="Library" URL="../Node LUT/Node LUT.lvlib"/>
+		<Item Name="Pairing Tab References.ctl" Type="VI" URL="../editor node/Pairing Tab References.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
