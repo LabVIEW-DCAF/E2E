@@ -1,7 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.Project.Description" Type="Str"></Property>
+<Project Type="Project" LVVersion="15008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -26,7 +25,6 @@
 		<Item Name="E2E Tag Exchange configuration.lvclass" Type="LVClass" URL="../module/configuration/E2E Tag Exchange configuration.lvclass"/>
 		<Item Name="E2E Tag Exchange runtime.lvclass" Type="LVClass" URL="../module/execution/E2E Tag Exchange runtime.lvclass"/>
 		<Item Name="E2E Tag Exchange tests.lvlib" Type="Library" URL="../testing/E2E Tag Exchange tests.lvlib"/>
-		<Item Name="Node LUT.lvlib" Type="Library" URL="../Node LUT/Node LUT.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
