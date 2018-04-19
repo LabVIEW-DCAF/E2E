@@ -24,13 +24,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="E2E Tag Exchange editor node.lvclass" Type="LVClass" URL="../editor node/E2E Tag Exchange editor node.lvclass"/>
 		<Item Name="E2E Tag Exchange configuration.lvclass" Type="LVClass" URL="../module/configuration/E2E Tag Exchange configuration.lvclass"/>
-		<Item Name="E2E Tag Exchange tests.lvlib" Type="Library" URL="../testing/E2E Tag Exchange tests.lvlib"/>
 		<Item Name="Node LUT.lvlib" Type="Library" URL="../Node LUT/Node LUT.lvlib"/>
-		<Item Name="Pairing Tab References.ctl" Type="VI" URL="../editor node/Pairing Tab References.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -138,14 +135,7 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Add Line.vi" Type="VI" URL="../module/configuration/Add Line.vi"/>
-			<Item Name="Replace Line.vi" Type="VI" URL="../module/configuration/Replace Line.vi"/>
-			<Item Name="Delete Line.vi" Type="VI" URL="../module/configuration/Delete Line.vi"/>
-			<Item Name="Get Line Name.vi" Type="VI" URL="../module/configuration/Get Line Name.vi"/>
 			<Item Name="Line.ctl" Type="VI" URL="../module/configuration/Line.ctl"/>
-			<Item Name="Read Lines.vi" Type="VI" URL="../module/configuration/Read Lines.vi"/>
-			<Item Name="Write Lines.vi" Type="VI" URL="../module/configuration/Write Lines.vi"/>
-			<Item Name="E2E Tag Exchange runtime.lvclass" Type="LVClass" URL="../module/execution/E2E Tag Exchange runtime.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
