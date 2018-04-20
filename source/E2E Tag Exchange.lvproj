@@ -22,6 +22,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Runtime Implementations" Type="Folder">
+			<Item Name="E2E Runtime (RT FIFO).lvclass" Type="LVClass" URL="../module/runtime implementations/RT FIFO/E2E Runtime (RT FIFO).lvclass"/>
+		</Item>
 		<Item Name="E2E Tag Exchange editor node.lvclass" Type="LVClass" URL="../editor node/E2E Tag Exchange editor node.lvclass"/>
 		<Item Name="E2E Tag Exchange configuration.lvclass" Type="LVClass" URL="../module/configuration/E2E Tag Exchange configuration.lvclass"/>
 		<Item Name="Node LUT.lvlib" Type="Library" URL="../Node LUT/Node LUT.lvlib"/>
@@ -135,7 +138,6 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Line.ctl" Type="VI" URL="../module/configuration/Line.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
