@@ -24,6 +24,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Runtime Implementations" Type="Folder">
 			<Item Name="E2E Runtime (RT FIFO).lvclass" Type="LVClass" URL="../module/runtime implementations/RT FIFO/E2E Runtime (RT FIFO).lvclass"/>
+			<Item Name="E2E Runtime (UDP).lvclass" Type="LVClass" URL="../module/runtime implementations/UDP/E2E Runtime (UDP).lvclass"/>
 		</Item>
 		<Item Name="E2E Tag Exchange editor node.lvclass" Type="LVClass" URL="../editor node/E2E Tag Exchange editor node.lvclass"/>
 		<Item Name="E2E Tag Exchange configuration.lvclass" Type="LVClass" URL="../module/configuration/E2E Tag Exchange configuration.lvclass"/>
