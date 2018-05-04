@@ -29,6 +29,7 @@
 		<Item Name="E2E Tag Exchange editor node.lvclass" Type="LVClass" URL="../editor node/E2E Tag Exchange editor node.lvclass"/>
 		<Item Name="E2E Tag Exchange configuration.lvclass" Type="LVClass" URL="../module/configuration/E2E Tag Exchange configuration.lvclass"/>
 		<Item Name="Node LUT.lvlib" Type="Library" URL="../Node LUT/Node LUT.lvlib"/>
+		<Item Name="E2E Tag Exchange tests.lvlib" Type="Library" URL="../testing/E2E Tag Exchange tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
@@ -132,6 +133,7 @@
 				<Item Name="sizeaction.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/sizeaction.ctl"/>
 				<Item Name="Format Numeric String.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Table API/Helpers/Format Numeric String.vi"/>
 				<Item Name="TryGetGraphVizPath.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Utilities/External tools/TryGetGraphVizPath.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 			</Item>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
