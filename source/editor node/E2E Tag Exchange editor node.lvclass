@@ -110,7 +110,7 @@
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1353196048</Property>
 			</Item>
 			<Item Name="UDP Refresh Specific Channel and Tags.vi" Type="VI" URL="../implementation specific/UDP/UDP Refresh Specific Channel and Tags.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,X!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!'%!Q`````Q^.98"Q:71A6'&amp;H)%ZB&lt;75!&amp;%!B$U.I97ZO:7QA28BJ=X2T0Q#%1(!!(A!!33614#"'=G&amp;N:8&gt;P=GMA1W^O:GFH&gt;8*B&gt;'FP&lt;C"5&lt;W^M,GRW&lt;'FC)56O:WFO:3"198*F&lt;H1A272J&gt;'^S)%ZP:'5O&lt;(:D&lt;'&amp;T=Q!R6'&amp;H)%6E;82P=C"$&lt;X*F/E6O:WFO:3"198*F&lt;H1A272J&gt;'^S)%ZP:'5O&lt;(:D&lt;'&amp;T=Q!41(!!)!!"!!9!"G6O:WFO:1!!1%"Q!"Y!!#9E24*&amp;)&amp;2B:S"&amp;?'.I97ZH:3"F:'FU&lt;X)A&lt;G^E:3ZM&gt;G.M98.T!!!024*&amp;)'6E;82P=C"O&lt;W2F!"6!=!!A!!%!#!!)4G^E:3"3:79!!'5!]1!!!!!!!!!#*%5S23"597=A28BD;'&amp;O:W5A:72J&gt;'^S)'ZP:'5O&lt;(:D&lt;'&amp;T=R6P9GJF9X1A=G6G:8*F&lt;G.F=SZD&gt;'Q!)E"1!!)!"Q!*%WZP:'5A5G6G:8*F&lt;G.F=S"P&gt;81!.%"Q!"Y!!#9.&gt;'&amp;H)'*V=SZM&gt;GRJ9B:U97=A:'6T9X*J=(2P=CZM&gt;G.M98.T!!!$&gt;'&amp;H!#B!1!!"`````Q!,'H2B:X-A98:B;7RB9GRF)':P=C"N98"Q;7ZH!!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"B!0%!!!!!!!!!!C2&amp;-E5A6'&amp;H)%6Y9WBB&lt;G&gt;F)'6E;82P=C"O&lt;W2F,GRW9WRB=X-6&lt;W*K:7.U)(*F:G6S:7ZD:8-O9X2M!"Z!5!!#!!=!#1^O&lt;W2F)&amp;*F:G6S:7ZD:8-!6!$Q!!Q!!Q!%!!5!#A!-!!U!$1!.!!Y!$1!.!!]$!!"Y!!!*!!!!#1!!!!E!!!!.#Q!!#1!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!!!!1!1!!!!!!</Property>
@@ -128,7 +128,7 @@
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1353196048</Property>
 			</Item>
 			<Item Name="UDP Refresh Packet Sizes.vi" Type="VI" URL="../implementation specific/UDP/UDP Refresh Packet Sizes.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!3&amp;!!!!(!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!=!!)!!!!'Q!!"U&amp;E:(*F=X-!"1!'!!!;1(!!#!!"!!9!%A!!#V*F&lt;7^U:3"1&lt;X*U!#"!=!!)!!%!"A!3!!!1;7ZQ&gt;82@4'^D97QA5'^S&gt;!!!)%"Q!!A!!1!'!")!!"&amp;P&gt;82Q&gt;82@4'^D97QA5'^S&gt;!!%!#%!)%"Q!!A!!1!+!!A!!""-98.U)&amp;6Q:'&amp;U:3"597=`!!!11(!!#!!!!"U!!!.597=!&amp;E"Q!!A!!!!)!!!)2W6O:8*B&gt;'5!!!5!!Q!!)%"Q!!A!!1!/!")!!"&amp;*&lt;H"V&gt;#"197.L:81A5WF[:1!C1(!!#!!"!!Y!%A!!%E^V&gt;("V&gt;#"197.L:81A5WF[:1!!*%"Q!!A!!1!/!")!!"2&amp;=X2J&lt;7&amp;U:71A18*S98EA5WF[:1!!&gt;Q$R!!!!!!!!!!)E24*&amp;)&amp;2B:S"&amp;?'.I97ZH:3"F:'FU&lt;X)A&lt;G^E:3ZM&gt;G.M98.T&amp;66%5#"633"3:7:F=G6O9W6T,G.U&lt;!!U1&amp;!!#A!&amp;!!=!#!!*!!M!$!!.!!]!%!!2&amp;66%5#"633"3:7:F=G6O9W6T)'^V&gt;!#%1(!!(A!!33614#"'=G&amp;N:8&gt;P=GMA1W^O:GFH&gt;8*B&gt;'FP&lt;C"5&lt;W^M,GRW&lt;'FC)56O:WFO:3"198*F&lt;H1A272J&gt;'^S)%ZP:'5O&lt;(:D&lt;'&amp;T=Q!R6'&amp;H)%6E;82P=C"$&lt;X*F/E6O:WFO:3"198*F&lt;H1A272J&gt;'^S)%ZP:'5O&lt;(:D&lt;'&amp;T=Q!41(!!)!!"!"-!"G6O:WFO:1!!1%"Q!"Y!!#9E24*&amp;)&amp;2B:S"&amp;?'.I97ZH:3"F:'FU&lt;X)A&lt;G^E:3ZM&gt;G.M98.T!!!024*&amp;)'6E;82P=C"O&lt;W2F!"6!=!!A!!%!&amp;1!)4G^E:3"3:79!!'5!]1!!!!!!!!!#*%5S23"597=A28BD;'&amp;O:W5A:72J&gt;'^S)'ZP:'5O&lt;(:D&lt;'&amp;T=R6P9GJF9X1A=G6G:8*F&lt;G.F=SZD&gt;'Q!)E"1!!)!&amp;!!7%WZP:'5A5G6G:8*F&lt;G.F=S"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"X!0%!!!!!!!!!!C2&amp;-E5A6'&amp;H)%6Y9WBB&lt;G&gt;F)'6E;82P=C"O&lt;W2F,GRW9WRB=X-66521)&amp;6*)&amp;*F:G6S:7ZD:8-O9X2M!$2!5!!+!!5!"Q!)!!E!#Q!-!!U!$Q!1!"%56521)&amp;6*)&amp;*F:G6S:7ZD:8-A;7Y!!'%!]1!!!!!!!!!#*%5S23"597=A28BD;'&amp;O:W5A:72J&gt;'^S)'ZP:'5O&lt;(:D&lt;'&amp;T=R6P9GJF9X1A=G6G:8*F&lt;G.F=SZD&gt;'Q!(E"1!!)!&amp;!!7$WZP:'5A5G6G:8*F&lt;G.F=Q"5!0!!$!!$!!1!%A!8!!1!"!!%!!1!'!!%!"E!'A-!!(A!!!U)!!!!!!!!$1I!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!%!!!!!!"!"M!!!!!</Property>
@@ -137,7 +137,7 @@
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1353196048</Property>
 			</Item>
 			<Item Name="UDP Add Remove Last Update Channel.vi" Type="VI" URL="../implementation specific/UDP/UDP Add Remove Last Update Channel.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+&amp;!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!)2!=!!?!!"**6"-)%:S97VF&gt;W^S;S"$&lt;WZG;7&gt;V=G&amp;U;7^O)&amp;2P&lt;WQO&lt;(:M;7)B27ZH;7ZF)&amp;"B=G6O&gt;#"&amp;:'FU&lt;X)A4G^E:3ZM&gt;G.M98.T!$&amp;597=A272J&gt;'^S)%.P=G5[27ZH;7ZF)&amp;"B=G6O&gt;#"&amp;:'FU&lt;X)A4G^E:3ZM&gt;G.M98.T!".!=!!A!!%!"1!':7ZH;7ZF!!"!1(!!(A!!*C2&amp;-E5A6'&amp;H)%6Y9WBB&lt;G&gt;F)'6E;82P=C"O&lt;W2F,GRW9WRB=X-!!!^&amp;-E5A:72J&gt;'^S)'ZP:'5!&amp;5"Q!#!!!1!(!!B/&lt;W2F)&amp;*F:A!!:1$R!!!!!!!!!!)E24*&amp;)&amp;2B:S"&amp;?'.I97ZH:3"F:'FU&lt;X)A&lt;G^E:3ZM&gt;G.M98.T&amp;7^C;G6D&gt;#"S:7:F=G6O9W6T,G.U&lt;!!C1&amp;!!!A!'!!A4&lt;G^E:3"3:7:F=G6O9W6T)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!)2"-98.U)&amp;6Q:'&amp;U:3"597=`!!"B!0%!!!!!!!!!!C2&amp;-E5A6'&amp;H)%6Y9WBB&lt;G&gt;F)'6E;82P=C"O&lt;W2F,GRW9WRB=X-6&lt;W*K:7.U)(*F:G6S:7ZD:8-O9X2M!"Z!5!!#!!9!#!^O&lt;W2F)&amp;*F:G6S:7ZD:8-!6!$Q!!Q!!Q!%!!1!#1!%!!1!"!!%!!I!"!!,!!Q$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!"!!!!!!!1!.!!!!!!</Property>
@@ -531,7 +531,7 @@
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1115689488</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1117786640</Property>
 			</Item>
 		</Item>
 		<Item Name="Channels/Tags" Type="Folder">
