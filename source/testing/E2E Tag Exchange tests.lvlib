@@ -12,12 +12,44 @@
 		<Item Name="generate random string.vi" Type="VI" URL="../generate random string.vi"/>
 		<Item Name="Initialize E2E Configuration with Channels.vi" Type="VI" URL="../Initialize E2E Configuration with Channels.vi"/>
 	</Item>
+	<Item Name="add prefix suffix test.lvtest" Type="TestItem" URL="../add prefix suffix test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">E2E Tag Exchange tests.lvlib:add prefix suffix test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">5F565150-CF00-4CBC-0D51-2EF0F1E9F8F7</Property>
+	</Item>
 	<Item Name="add prefix suffix test.vi" Type="VI" URL="../add prefix suffix test.vi"/>
+	<Item Name="channel pairing test.lvtest" Type="TestItem" URL="../channel pairing test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">E2E Tag Exchange tests.lvlib:channel pairing test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">2D9E424B-109B-044B-EFC6-815D977C13EB</Property>
+	</Item>
 	<Item Name="channel pairing test.vi" Type="VI" URL="../channel pairing test.vi"/>
+	<Item Name="config crosslink test.lvtest" Type="TestItem" URL="../config crosslink test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">E2E Tag Exchange tests.lvlib:config crosslink test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">F00AD1BA-7FF8-1EB7-869B-84230E7435D8</Property>
+	</Item>
 	<Item Name="config crosslink test.vi" Type="VI" URL="../config crosslink test.vi"/>
+	<Item Name="get channels test.lvtest" Type="TestItem" URL="../get channels test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">E2E Tag Exchange tests.lvlib:get channels test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">8BC9341A-49B0-5AB9-FF9C-AB9063DCA1BF</Property>
+	</Item>
 	<Item Name="get channels test.vi" Type="VI" URL="../get channels test.vi"/>
+	<Item Name="runtime to editor crosslink test.lvtest" Type="TestItem" URL="../runtime to editor crosslink test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">E2E Tag Exchange tests.lvlib:runtime to editor crosslink test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">1763B83B-831A-6B26-1BB4-A43E58A426D1</Property>
+	</Item>
 	<Item Name="runtime to editor crosslink test.vi" Type="VI" URL="../runtime to editor crosslink test.vi"/>
+	<Item Name="serialization tests.lvtest" Type="TestItem" URL="../serialization tests.lvtest">
+		<Property Name="utf.test.bind" Type="Str">E2E Tag Exchange tests.lvlib:serialization tests.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">210822BF-8195-5B24-D828-9AB7B9FE7DEE</Property>
+	</Item>
 	<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
+	<Item Name="ToTable Test.lvtest" Type="TestItem" URL="../ToTable Test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">E2E Tag Exchange tests.lvlib:ToTable Test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">B6C8EE10-0B61-91AF-611C-65766B34F50D</Property>
+	</Item>
 	<Item Name="ToTable Test.vi" Type="VI" URL="../ToTable Test.vi"/>
+	<Item Name="UDP add last update channel test.lvtest" Type="TestItem" URL="../UDP add last update channel test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">E2E Tag Exchange tests.lvlib:UDP add last update channel test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">FEB88610-2D9E-3441-1CBB-2D766CEB77E1</Property>
+	</Item>
 	<Item Name="UDP add last update channel test.vi" Type="VI" URL="../UDP add last update channel test.vi"/>
 </Library>
