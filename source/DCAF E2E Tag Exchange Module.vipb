@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-18 11:20:13" Modified_Date="2018-08-07 14:54:17" Creator="IanKnox" Comments="" ID="256ca4e334c5eff86aabc37168e08b4b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-18 11:20:13" Modified_Date="2018-08-13 10:08:18" Creator="IanKnox" Comments="" ID="0b121d76485c4009b9c64025ef98cbc6">
   <Library_General_Settings>
     <Package_File_Name>Data_Ahead_GmbH_lib_DCAF_E2E_Tag_Exchange_Module</Package_File_Name>
-    <Library_Version>1.1.0.4</Library_Version>
+    <Library_Version>1.2.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\E2E</Library_Output_Folder>
@@ -17,7 +17,9 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_standard_engine &gt;=2.4.0.8</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_dcaf_tag_editor &gt;=2.1.3.172</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_uiref &gt;=2.3.0.12</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -25,7 +27,7 @@
       <Pre-Install_VI/>
       <Post-Install_VI>install actions\Add E2E to configuration search paths.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
-      <Post-Uninstall_VI/>
+      <Post-Uninstall_VI>install actions\Remove E2E from configuration search paths.vi</Post-Uninstall_VI>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>DCAF E2E Tag Exchange Module.vipc</VI_Package_Configuration_File>
     <Description>
@@ -45,8 +47,8 @@ DCAF Tag Editor 2.1.3.172 or Later</Description>
       <Copyright/>
       <Packager>Ian Knox</Packager>
       <URL/>
-      <Release_Notes>- Added runtime and configuration example for both current runtime implemenations (RT FIFO and UDP)
-- Modified estimated array/string size logic to update Estimated Input and Output Packet Sizes</Release_Notes>
+      <Release_Notes>- Added DCAF Standard Engine and DCAF UI Reference Module to dependencies (Necessary for Example)
+- Package uninstall will now attempt to remove E2E directory from the Standard Editor search paths cache</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
