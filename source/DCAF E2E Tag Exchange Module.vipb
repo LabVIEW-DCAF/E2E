@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-18 11:20:13" Modified_Date="2018-08-13 10:08:18" Creator="IanKnox" Comments="" ID="0b121d76485c4009b9c64025ef98cbc6">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-18 11:20:13" Modified_Date="2018-08-14 09:56:30" Creator="IanKnox" Comments="" ID="b3a26bb7decc9f57d92e435295ab6e44">
   <Library_General_Settings>
     <Package_File_Name>Data_Ahead_GmbH_lib_DCAF_E2E_Tag_Exchange_Module</Package_File_Name>
-    <Library_Version>1.2.0.1</Library_Version>
+    <Library_Version>1.2.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\E2E</Library_Output_Folder>
@@ -25,7 +25,7 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI>install actions\Add E2E to configuration search paths.vi</Post-Install_VI>
+      <Post-Install_VI>install actions\Post Install Action.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI>install actions\Remove E2E from configuration search paths.vi</Post-Uninstall_VI>
     </Custom_Action_VIs>
@@ -35,20 +35,25 @@
       <Description>The Engine-to-Engine Tag Exchange (E2E) module is a plugin module developed for the Distributed Control and Automation (DCAF) framework by Data Ahead GmbH. The E2E module was created to simplify the exchange of tags between seperate DCAF engines. Rather than configuring output and input channels manually using a specific I/O Module to exchange tags, the E2E module handles channel configuration automatically when a tag is selected to be shared between engines. The editor node of the E2E module also allows the user to determine the transfer mechanism for tag exchange. The transfer mechanism determines the allowable data types, the pairing depth (inner-target, inter-target, both), and other specific configuration information. The module was designed to allow for users to create and add new transfer mechanisms.
 
 &lt;b&gt;To Use:&lt;/b&gt; 
-This VIPM installer will attempt to add the E2E Module's destination directory to the DCAF Configuration Editor's plugin search paths. If sucessful, you will be able to add the E2E Module to your DCAF Engine's configuration by right clicking the engine configuration and selecting &lt;i&gt;Add&gt;&gt;Other&gt;&gt;E2E Tag Exchange&lt;/i&gt;. If not, you will need to add the E2E Module's destination directory manually. The default installation directory for the E2E module is &lt;color=blue&gt;\&lt;LabVIEW&gt;\vi.lib\Data Ahead GmbH\DCAF\E2E Tag Exchange Module&lt;/color&gt;. Add the directory to the plugin search paths by selection &lt;i&gt;Tools&gt;&gt;Edit Plugin Search Paths...&lt;/i&gt; from the toolbar of the DCAF Standard Configuration editor.
+This VIPM installer will attempt to add the E2E Module's destination directory to the DCAF Configuration Editor's plugin search paths. If successful, you will be able to add the E2E Module to your DCAF Engine's configuration by right clicking the engine configuration and selecting &lt;i&gt;Add&gt;&gt;Other&gt;&gt;E2E Tag Exchange&lt;/i&gt;. If not, you will need to add the E2E Module's destination directory manually. The default installation directory for the E2E module is &lt;color=blue&gt;\&lt;LabVIEW&gt;\vi.lib\Data Ahead GmbH\DCAF\E2E Tag Exchange Module&lt;/color&gt;. Add the directory to the plugin search paths by selection &lt;i&gt;Tools&gt;&gt;Edit Plugin Search Paths...&lt;/i&gt; from the toolbar of the DCAF Standard Configuration editor.
 
-A fully functioning example for two current runtime implementations (UDP and RT FIFO) is included in this package. Run the example by opening the E2E Multi-Type Tag Exchange project file located at &lt;color=blue&gt;\&lt;LabVIEW&gt;\Data Ahead GmbH\DCAF\E2E Tag Exchange Module\E2E Multi-Type Tag Exchange.lvproj&lt;/color&gt;, opening Host Main.vi, and selecting a runtime implemenation. View the configuration for each runtime implemenation by opening the respective DCAF configuration file included in the examples directory with the DCAF Standard Configuration editor. 
+A fully functioning example for two current runtime implementations (UDP and RT FIFO) is included in this package. Run the example by opening the E2E Multi-Type Tag Exchange project file located at &lt;color=blue&gt;\&lt;LabVIEW&gt;\Data Ahead GmbH\DCAF\E2E Tag Exchange Module\E2E Multi-Type Tag Exchange.lvproj&lt;/color&gt;, opening Host Main.vi, and selecting a runtime implemenation. View the configuration for each runtime implemenation by opening the respective DCAF configuration file included in the examples directory with the DCAF Standard Configuration editor.
+
+A help document has been included in this package and added to &lt;color=blue&gt;\&lt;LabVIEW&gt;\help\Data Ahead GmbH\DCAF\E2E Tag Exchange Module\E2E Help.pdf&lt;/color&gt;. The help file can be accessed through the "Detailed Help" link in the context menu of all toolkit VIs and through a hyperlink in the included example project.
 
 This module is open source and is hosted on GitHub: https://github.com/LabVIEW-DCAF/E2E
 
 Required Software
 LabVIEW 2015 or Later
-DCAF Tag Editor 2.1.3.172 or Later</Description>
+DCAF Tag Editor 2.1.3.172 or Later
+DCAF Standard Engine 2.4.0.8 or Later
+DCAF UI Reference Module 2.3.0.12 or Later (For Example)</Description>
       <Copyright/>
       <Packager>Ian Knox</Packager>
       <URL/>
       <Release_Notes>- Added DCAF Standard Engine and DCAF UI Reference Module to dependencies (Necessary for Example)
-- Package uninstall will now attempt to remove E2E directory from the Standard Editor search paths cache</Release_Notes>
+- Package uninstall will now attempt to remove E2E directory from the Standard Editor search paths cache
+- Added help file to package install, detailed help can be accessed through context help and example project</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -72,7 +77,7 @@ DCAF Tag Editor 2.1.3.172 or Later</Description>
       </Custom_Errors>
       <Help_Files>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;help&gt;\Data Ahead GmbH\DCAF\E2E Tag Exchange Module</Path>
       </Help_Files>
       <Template_VIs>
         <LLB>false</LLB>
@@ -118,6 +123,12 @@ DCAF Tag Editor 2.1.3.172 or Later</Description>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>E2E Help.pdf</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -133,6 +144,9 @@ DCAF Tag Editor 2.1.3.172 or Later</Description>
       </Exclusions>
       <Exclusions>
         <Path>testing</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>E2E Help.docx</Path>
       </Exclusions>
       <Compile_Exclusions>
         <Path>module/runtime implementations</Path>
