@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-18 11:20:13" Modified_Date="2018-08-14 09:56:30" Creator="IanKnox" Comments="" ID="b3a26bb7decc9f57d92e435295ab6e44">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-18 11:20:13" Modified_Date="2018-08-16 16:26:42" Creator="IanKnox" Comments="" ID="0320c29c7a71dd79470bedd617b89432">
   <Library_General_Settings>
     <Package_File_Name>Data_Ahead_GmbH_lib_DCAF_E2E_Tag_Exchange_Module</Package_File_Name>
-    <Library_Version>1.2.0.10</Library_Version>
+    <Library_Version>1.2.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\E2E</Library_Output_Folder>
@@ -59,12 +59,12 @@ DCAF UI Reference Module 2.3.0.12 or Later (For Example)</Description>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;vi.lib&gt;\Data Ahead GmbH\DCAF\E2E Tag Exchange Module</Path>
+        <Path>&lt;vi.lib&gt;\Data Ahead GmbH\E2E Tag Exchange Module</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
         <Preserve_Hierarchy>false</Preserve_Hierarchy>
-        <Path>&lt;application&gt;\examples\Data Ahead GmbH\DCAF\E2E Tag Exchange Module</Path>
+        <Path>&lt;application&gt;\examples\Data Ahead GmbH\E2E Tag Exchange Module</Path>
       </Examples>
       <Custom_Probes>
         <LLB>false</LLB>
@@ -77,7 +77,7 @@ DCAF UI Reference Module 2.3.0.12 or Later (For Example)</Description>
       </Custom_Errors>
       <Help_Files>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;help&gt;\Data Ahead GmbH\DCAF\E2E Tag Exchange Module</Path>
+        <Path>&lt;help&gt;\Data Ahead GmbH</Path>
       </Help_Files>
       <Template_VIs>
         <LLB>false</LLB>
@@ -125,6 +125,12 @@ DCAF UI Reference Module 2.3.0.12 or Later (For Example)</Description>
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>E2E Help.pdf</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>E2E Tag Exchange Module.vi</Path>
         <Destination>4</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
