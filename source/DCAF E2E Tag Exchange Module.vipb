@@ -1,11 +1,11 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-18 11:20:13" Modified_Date="2018-08-29 10:14:18" Creator="IanKnox" Comments="" ID="f088b59a36547ae18214188eb474bc81">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-18 11:20:13" Modified_Date="2018-10-17 10:24:33" Creator="IanKnox" Comments="" ID="1e6f185996aaad7162b1eee7a73ecf6b">
   <Library_General_Settings>
     <Package_File_Name>Data_Ahead_GmbH_lib_DCAF_E2E_Tag_Exchange_Module</Package_File_Name>
-    <Library_Version>1.2.0.16</Library_Version>
+    <Library_Version>1.3.0.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\E2E</Library_Output_Folder>
-    <Company_Name>Data Ahead GmbH</Company_Name>
+    <Company_Name>Data Ahead AG</Company_Name>
     <Library_Summary/>
     <Library_License>Apache 2</Library_License>
     <Package_LabVIEW_Version>15.0</Package_LabVIEW_Version>
@@ -32,14 +32,14 @@
     <VI_Package_Configuration_File>DCAF E2E Tag Exchange Module.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description>The Engine-to-Engine Tag Exchange (E2E) module is a plugin module developed for the Distributed Control and Automation (DCAF) framework by Data Ahead GmbH. The E2E module was created to simplify the exchange of tags between seperate DCAF engines. Rather than configuring output and input channels manually using a specific I/O Module to exchange tags, the E2E module handles channel configuration automatically when a tag is selected to be shared between engines. The editor node of the E2E module also allows the user to determine the transfer mechanism for tag exchange. The transfer mechanism determines the allowable data types, the pairing depth (inner-target, inter-target, both), and other specific configuration information. The module was designed to allow for users to create and add new transfer mechanisms.
+      <Description>The Engine-to-Engine Tag Exchange (E2E) module is a plugin module developed for the Distributed Control and Automation (DCAF) framework by Data Ahead AG. The E2E module was created to simplify the exchange of tags between seperate DCAF engines. Rather than configuring output and input channels manually using a specific I/O Module to exchange tags, the E2E module handles channel configuration automatically when a tag is selected to be shared between engines. The editor node of the E2E module also allows the user to determine the transfer mechanism for tag exchange. The transfer mechanism determines the allowable data types, the pairing depth (inner-target, inter-target, both), and other specific configuration information. The module was designed to allow for users to create and add new transfer mechanisms.
 
 &lt;b&gt;To Use:&lt;/b&gt; 
-This VIPM installer will attempt to add the E2E Module's destination directory to the DCAF Configuration Editor's plugin search paths. If successful, you will be able to add the E2E Module to your DCAF Engine's configuration by right clicking the engine configuration and selecting &lt;i&gt;Add&gt;&gt;Other&gt;&gt;E2E Tag Exchange&lt;/i&gt;. If not, you will need to add the E2E Module's destination directory manually. The default installation directory for the E2E module is &lt;color=blue&gt;\&lt;LabVIEW&gt;\vi.lib\Data Ahead GmbH\DCAF\E2E Tag Exchange Module&lt;/color&gt;. Add the directory to the plugin search paths by selection &lt;i&gt;Tools&gt;&gt;Edit Plugin Search Paths...&lt;/i&gt; from the toolbar of the DCAF Standard Configuration editor.
+This VIPM installer will attempt to add the E2E Module's destination directory to the DCAF Configuration Editor's plugin search paths. If successful, you will be able to add the E2E Module to your DCAF Engine's configuration by right clicking the engine configuration and selecting &lt;i&gt;Add&gt;&gt;Other&gt;&gt;E2E Tag Exchange&lt;/i&gt;. If not, you will need to add the E2E Module's destination directory manually. The default installation directory for the E2E module is &lt;color=blue&gt;\&lt;LabVIEW&gt;\vi.lib\Data Ahead AG\DCAF\E2E Tag Exchange Module&lt;/color&gt;. Add the directory to the plugin search paths by selection &lt;i&gt;Tools&gt;&gt;Edit Plugin Search Paths...&lt;/i&gt; from the toolbar of the DCAF Standard Configuration editor.
 
-A fully functioning example for two current runtime implementations (UDP and RT FIFO) is included in this package. Run the example by opening the E2E Multi-Type Tag Exchange project file located at &lt;color=blue&gt;\&lt;LabVIEW&gt;\Data Ahead GmbH\E2E Tag Exchange Module\E2E Multi-Type Tag Exchange.lvproj&lt;/color&gt;, opening Host Main.vi, and selecting a runtime implemenation. View the configuration for each runtime implemenation by opening the respective DCAF configuration file included in the examples directory with the DCAF Standard Configuration editor.
+A fully functioning example for two current runtime implementations (UDP and RT FIFO) is included in this package. Run the example by opening the E2E Multi-Type Tag Exchange project file located at &lt;color=blue&gt;\&lt;LabVIEW&gt;\Data Ahead AG\E2E Tag Exchange Module\E2E Multi-Type Tag Exchange.lvproj&lt;/color&gt;, opening Host Main.vi, and selecting a runtime implemenation. View the configuration for each runtime implemenation by opening the respective DCAF configuration file included in the examples directory with the DCAF Standard Configuration editor.
 
-A help document has been included in this package and added to &lt;color=blue&gt;\&lt;LabVIEW&gt;\help\Data Ahead GmbH\E2E Help.pdf&lt;/color&gt;. The help file can be accessed through the "Detailed Help" link in the context menu of all toolkit VIs and through a hyperlink in the included example project.
+A help document has been included in this package and added to &lt;color=blue&gt;\&lt;LabVIEW&gt;\help\Data Ahead AG\E2E Help.pdf&lt;/color&gt;. The help file can be accessed through the "Detailed Help" link in the context menu of all toolkit VIs and through a hyperlink in the included example project.
 
 This module is open source and is hosted on GitHub: https://github.com/LabVIEW-DCAF/E2E
 
@@ -51,18 +51,19 @@ DCAF UI Reference Module 2.3.0.12 or Later (For Example)</Description>
       <Copyright/>
       <Packager>Ian Knox</Packager>
       <URL/>
-      <Release_Notes>- Fixed bug in post install method to add E2E directory to plug-ins search paths cache</Release_Notes>
+      <Release_Notes>- Modified install directories and post install actions to reflect name change
+- Updated documentation to relfect name change</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;vi.lib&gt;\Data Ahead GmbH\E2E Tag Exchange Module</Path>
+        <Path>&lt;vi.lib&gt;\Data Ahead AG\E2E Tag Exchange Module</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
         <Preserve_Hierarchy>false</Preserve_Hierarchy>
-        <Path>&lt;application&gt;\examples\Data Ahead GmbH\E2E Tag Exchange Module</Path>
+        <Path>&lt;application&gt;\examples\Data Ahead AG\E2E Tag Exchange Module</Path>
       </Examples>
       <Custom_Probes>
         <LLB>false</LLB>
@@ -75,7 +76,7 @@ DCAF UI Reference Module 2.3.0.12 or Later (For Example)</Description>
       </Custom_Errors>
       <Help_Files>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;help&gt;\Data Ahead GmbH</Path>
+        <Path>&lt;help&gt;\Data Ahead AG</Path>
       </Help_Files>
       <Template_VIs>
         <LLB>false</LLB>
@@ -176,7 +177,7 @@ DCAF UI Reference Module 2.3.0.12 or Later (For Example)</Description>
     <Palette_Sets>
       <Palette_Set_Name>Default</Palette_Set_Name>
       <Use_Custom_Category>false</Use_Custom_Category>
-      <Custom_Category_Name/>
+      <Custom_Category_Name>Data Ahead GmbH</Custom_Category_Name>
       <Custom_Category_Icon>000007BD002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000001610000013B000000090007001800180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFF000000000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000000000000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0001C4E5AA4BAE4FAA4BCA4B00010028000001AE0000017A00080007000F001900180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000000000FFFFFF000000000000000000FFFFFF000000000000FFFFFF000000000000000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00003FFF4AC9BFFFAA957FFFEEDD7FFFAA957FFFAAD5BFFF00003FFF00280000017600000150001000080017001800180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000000000000000000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000065658755A567955565650000002900000012000000020000000D00CCCCFF000100000000000A0000000800190000002000200028000002D4000002A0001900000020002000180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C00006C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000C4E42564AA4A554AAE4E776EAA4A554ACA4A556A00000000</Custom_Category_Icon>
       <Controls_Palette_Information>
         <Virtual_Palette_Base_Path>Controls</Virtual_Palette_Base_Path>
