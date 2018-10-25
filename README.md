@@ -8,7 +8,7 @@ The Engine-to-Engine Tag Exchange (E2E) module is meant to simplify the exchange
 
 E2E modules exchange tags by pairing with each other on a one-to-one basis. When an E2E module is selected, the **E2E Nodes** table will display all other E2E modules in the configuration. Pair a module by selecting an enabled row in the table and clicking **Pair**. Use the **Unpair** button to unpair the paired modules.
 
-![Node_Pairing](Documentation\Images\Node_Pairing.png)
+![Node_Pairing](Documentation/Images/Node_Pairing.png)
 
 **Runtime Implementation:** Determines which runtime component is used to exchange tags, which pairing distances are acceptable, the data types that can be exchanged, and other specific configuration information. Currently supported runtime implementations are:
 + RT FIFO
@@ -20,23 +20,23 @@ E2E modules exchange tags by pairing with each other on a one-to-one basis. When
 
 **Unpair:** Unpairs the active module with the E2E module identified by the **Paired Module UID**.
 
-**E2E Nodes:** List of all other E2E modules in the current configuration.
+**E2E Nodes:** List of all other E2E modules in the current configuration.  
 + **Display Name:** The module's current alias.
 + **UID:** The unique identifier of the module.
 + **Runtime Implementation:**
 + **Distance:** The relationship of the selected E2E module to the active module. The distance can be one of the following values:
- + **0:** The module is under the same engine.
- + **1:** The module is under a different engine in the same target.
- + **2:** The module is under a different engine in a different target.
+  + **0:** The module is under the same engine.
+  + **1:** The module is under a different engine in the same target.
+  + **2:** The module is under a different engine in a different target.
 
 > **Note:** The row for a specific module in **E2E Nodes** list will be disabled if one of the following conditions is met.
-+ The runtime implementation of the listed module does not match the runtime implementation of the active module.
-+ The module is already paired.
-+ The runtime implementation doesn't support the pairing distance (e.g. RT FIFOs cannot exchange tags between separate targets).
+>+ The runtime implementation of the listed module does not match the runtime implementation of the active module.
+>+ The module is already paired.
+>+ The runtime implementation doesn't support the pairing distance (e.g. RT FIFOs cannot exchange tags between separate targets).
 
 ### Tag Exchange
 
-![Tag_Exchange](Documentation\Images\Tag_Exchange.png)
+![Tag_Exchange](Documentation/Images/Tag_Exchange.png)
 
 **Filter:** Filter list of tags using the syntax of the [Match Pattern](http://zone.ni.com/reference/en-XX/help/371361R-01/glang/match_pattern/) primitive.
 
@@ -54,7 +54,7 @@ E2E modules exchange tags by pairing with each other on a one-to-one basis. When
 
 If UDP has been selected as the runtime implementation, the following configuration tab will become available.
 
-![UDP_Configuration](Documentation\Images\UDP_Configuration.png)
+![UDP_Configuration](Documentation/Images/UDP_Configuration.png)
 
 
 ##### Output
@@ -85,7 +85,7 @@ The E2E Tag Exchange Module was designed to allow for additional transfer mechan
 
 Begin by adding the name of the new transfer mechanism to `Runtime Implementation.ctl` type definition.
 
-![ModifyConfigProjectExplorer](Documentation\Images\Modify_Config_Project_Explorer.png)
+![ModifyConfigProjectExplorer](Documentation/Images/Modify_Config_Project_Explorer.png)
 
 After applying changes to the type definition, the following configuration class methods need to be edited to handle the new implementation.
 
